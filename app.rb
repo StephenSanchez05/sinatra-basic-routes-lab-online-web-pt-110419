@@ -7,4 +7,13 @@ class App < Sinatra::Base
     erb:'name/index'
   end
   
+  get '/hometown' do
+    "Hello town"
+  end
+  
+  get '/favorite-song' do
+    "song"
+  end 
+
+  
 end
